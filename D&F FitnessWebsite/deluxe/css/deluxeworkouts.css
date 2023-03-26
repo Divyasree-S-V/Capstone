@@ -1,0 +1,89 @@
+#result5{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black;
+}
+#result6{
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  color: black;
+
+}
+
+
+#display{
+  margin-top: 15%;
+  margin-left: 28%;
+  align-items: center;
+  width: 20%;
+  box-shadow: 0 0 30px magenta;
+}
+
+
+#display1{
+  margin-top: -9%;
+  margin-left: 60%;
+  align-items: center;
+  width: 20%;
+  box-shadow: 0 0 30px magenta;
+}
+
+#display1 a{
+  text-decoration: none;
+}
+
+#demo{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+
+}
+
+.box .display{
+  width: auto;
+  height: auto%;
+}
+
+
+
+
+.btn{
+        background-image: linear-gradient(to right, #ff0084 0%, #33001b  51%, #ff0084  100%);
+        margin: 10px;
+        padding: 10px 30px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px pink;
+        border-radius: 10px;
+        display: block;
+          }
+
+          .btn:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+
+
+
+
+          #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: auto;
+            min-height: auto;
+          }
+
+          .btn1{
+            background: transparent;
+          }

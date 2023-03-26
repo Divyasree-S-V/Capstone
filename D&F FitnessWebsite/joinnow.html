@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Join now</title>
+    <link rel="shortcut icon" href="images/team.png" type="image/x-icon">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="joinnow.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="typing-demo">
+        CHECK OUT OUR PRICING!!!
+      </div>
+  </div>
+<hr>
+    <section class="section2">
+        <h1 class="text-center my-2">Pricing</h1>
+        <h4 class="my-2">Don’t be slow! Our prices are low!! <br><br>Don’t miss out on these discounts!</h4>
+        <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+        <div class="boxes flex justify-center">
+            <div class="box">
+                <h2>Basic⭐</h2>
+                <ul>
+                    <li class="highlighted">₹0/month</li>
+                    <li>0 users included</li>
+                    <li>Displays workouts</li>
+                    <li><button class="btn" onclick="showAlert()">Signup Now</button></li>
+                    <script type="text/javascript">
+                    function showAlert() {
+                    var result = confirm("You have chosen the BASIC plan");
+                    if (result == true) {
+                      window.location.href = "http://localhost/Capstone/D&F%20FitnessWebsite/success1.html";
+                   } else {
+                      window.location.href = "http://localhost/Capstone/D&F%20FitnessWebsite/joinnow.html";
+                  }
+                }
+                    </script>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Premium✨</h2>
+                <ul>
+                    <li class="highlighted">₹200/month</li>
+                    <li>0 users included</li>
+                    <li>Displays workouts</li>
+                    <li>Access to playlists</li>
+                    <li><button class="btn"  onclick="showAlert2()">Signup Now</button></li>
+                    <script type="text/javascript">
+                      function showAlert2() {
+                      var result = confirm("You have chosen the PREMIUM plan");
+                      if (result == true) {
+                        window.location.href = "http://localhost/Capstone/payment%20gateway/premiumpay.php";
+                     } else {
+                        window.location.href = "http://localhost/Capstone/D&F%20FitnessWebsite/joinnow.html";
+                    }
+                  }
+                    </script>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Deluxe🌟</h2>
+                <ul>
+                    <li class="highlighted">₹500/month</li>
+                    <li>0 users included</li>
+                    <li>Displays workouts</li>
+                    <li>Access to playlists</li>
+                    <li>Expert instructions</li>
+
+                    <li><button class="btn" onclick="showAlert3()">Signup Now</button></li>
+                    <script type="text/javascript">
+                    function showAlert3() {
+                    var result = confirm("You have chosen the DELUXE plan");
+                    if (result == true) {
+                      window.location.href = "http://localhost/Capstone/payment%20gateway/deluxepay.php";
+                   } else {
+                      window.location.href = "http://localhost/Capstone/D&F%20FitnessWebsite/joinnow.html";
+                  }
+                }
+                    </script>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+  </body>
+</html>
